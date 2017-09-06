@@ -1,0 +1,10 @@
+int main(){
+	printf("%i \n", plus(6, 7));
+	printf("%i", minus(6, 7));
+}
+int plus(int a, int b){
+	return a + b;
+}
+int minus(int a, int b){
+	return a - b;
+}
